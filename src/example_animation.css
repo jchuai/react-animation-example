@@ -1,0 +1,21 @@
+.example-enter {
+    font-size: 12px;
+    transition: font-size 1s ease-in;
+}
+
+.example-enter.example-enter-active {
+    font-size: 1em;
+}
+
+.example-leave {
+    opacity: 1;
+}
+
+.example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 1s ease-in;
+}
+
+button {
+    color: red;
+}
